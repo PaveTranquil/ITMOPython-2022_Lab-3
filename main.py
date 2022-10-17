@@ -74,3 +74,4 @@ for i in index:
 
 print(''.join([f'[{bag[i]}],' if i % 3 != 2 else f'[{bag[i]}]\n' for i in range(len(bag))]))
 print('Итоговые очки выживания:', optimal[1])
+print('Том выживет с таким набором предметов' if optimal[1] > 0 else 'Зомби сожрут Тома заживо...') 
